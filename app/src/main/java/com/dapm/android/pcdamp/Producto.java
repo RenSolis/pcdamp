@@ -32,4 +32,9 @@ public class Producto {
     public UUID getId() {
         return mId;
     }
+
+    @Override
+    public String toString() {
+        return mNombre;
+    }
 }
